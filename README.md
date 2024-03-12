@@ -1,25 +1,25 @@
-# Predictive-Analytics_HOH_ABBA
-This repository shows the application of renowned Predictive Analytics techniques applied on open source business data 
-
 # What is this repository?
-This repository contains a program called 'Decision Tree Teaching Assistant' (DeTTA), which generates synthetic tabular
-data on which decision trees can be calculated. It is written in the Python programming language and published under a
-Creative Commons license. Start the program by running the main.py module.
+This repository contains various live coding examples of selected predictive machine learning modelling techniques. In particular, the course covers various regression methods and classification methods. Through an analytical and competitive comparison of these machine learning techniques, lecturers and students can apply these approaches to individualised use case data, adapt and even extend the code units. Students can learn how individual machine learning models can react to different data and that a differentiated perspective on the selection decision of models must always be taken into account. The coding examples are part of the course 'Predictive Analytics', which is offered as a compulsory elective for Master's students at the University of Hohenheim in Stuttgart, Germany.
 
 # What can I use it for?
-You can use this software to create an infinite amount of decision tree calculation tasks with varying size and
-complexity. Additionally, solution visualization in various formats (JPG, PDF, SVG, DOT) and abbreviated and extensive
-step-by-step calculations in TXT format to guide you in teaching or your students in self-learning are also being
-generated.
+This repository can be used to solve various regression tasks and classification tasks on real-world business data. Depending on the data set and distribution of the data, a selective choice of approaches can be considered. Linear regression and polynomial regression are taught as regression methods and logistic regression, k-Nearest-Neighbour, Naive Bayes, Support Vector Machines and initial approaches of the CART Decision Tree are taught as classification methods. Depending on the task, two different open source data from Kaggle were used for the modelling:
+Flight Price Prediction for Regression Tasks:
+
+https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction 
+
+Employee Future Prediction
+
+https://www.kaggle.com/datasets/tejashvi14/employee-future-prediction 
+
+The code examples in the repository can be applied to various business use cases. Lecturers can use this repository to teach students the mindset of analytical comparison of machine learning methods in the predictive domain.
 
 # What do I need in order to use it?
-This program has been written under Python 3.10. Any IDE able to run Python can execute this program. No further
-packages need to be installed.
+This program has been written in Python by using Jupyter Notebook. Please download Jupyter Notebook (e.g. via the Anaconda distribution) together with the corresponding datasets to use the code units. Integrated libaries and packages need to be installed.
 
 # Copyright / License
 This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY-NC-SA 4.0).
 
-![](CC-BY-NC-SA.jpg)
+[integrate CC-pic]
  
 As such:
 
@@ -35,23 +35,19 @@ As such:
 
 
 # Authors, Citation
-Yorck Zisgen {0000-0002-9646-2829}, University of Bayreuth, Germany
+Muhammed-Fatih Kaya {0000-0002-9646-2829}, University of Hohenheim, Germany
 
-Cite as:\
-*Decision Tree Teaching Assistant by Yorck Zisgen, licensed under
+Cite as:
+
+*Comparison of Predictive Analytics Methods by Muhammed-Fatih Kaya, licensed under
 [CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.txt),
 via https://github.com/AI-for-Business/Decision-Tree-Teaching-Assistant*
 
 # DOI - Code
-[![DOI](https://zenodo.org/badge/571801063.svg)](https://zenodo.org/doi/10.5281/zenodo.10589093)
+[Generate DOI]
 
 # Contact / About us
 * You can find all of our repositories [here](https://github.com/orgs/AI-for-Business/repositories).
 * You can find the homepage of the project ABBA: **A**I for **B**usiness | **B**usiness for **A**I
 [here](https://abba-project.de/).
 * You can contact the authors by sending us an [email](mailto:abba-services@fim-rc.de).
-
-# Author's note:
-This program has been used to create six exemplary, original, synthetic datasets. These can be found
-[here](https://github.com/AI-for-Business/6_datasets_for_teaching_decision_tree_calculation).
-For instructions on how to create your own exercises / exam tasks, please consult the manual.pdf file.
